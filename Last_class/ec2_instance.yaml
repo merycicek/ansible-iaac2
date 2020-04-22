@@ -6,3 +6,11 @@
   - us-east-1.yaml 
   tasks:
   - name: Create instance
+  - ec2:
+      key_name:                 "{{mykey}}"
+      instance_type:            "{{instance_type}}"
+      image:                    "{{image}}"
+      group:                    "{{group}}"
+      count:                    "{{count}}"
+      vpc_subnet_id:            "{{vpc_subnet_id}}"
+      assign_public_ip:         "{{assign_public_ip}}"
