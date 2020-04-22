@@ -1,4 +1,7 @@
 ---
 - hosts: localhost
   tasks:
-  
+  - name: Say hello
+    package:
+      name: "{{package_name}}" 
+      state: installed 
