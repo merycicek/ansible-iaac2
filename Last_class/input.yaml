@@ -3,7 +3,7 @@
   become: yes
   become_method: sudo
   vars_files:
-  - some_region.yaml 
+  - some_regions.yaml 
   tasks:
   - name: Say hello
     package:
