@@ -6,4 +6,4 @@
       state: present
       region: us-east-1
       vpc_id: vpc-05f514f0618c0ce2f
-      cidr: 10.0.1.0/24
+      cidr: 10.0.1.0/26
