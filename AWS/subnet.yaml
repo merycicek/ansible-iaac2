@@ -2,7 +2,7 @@
 - hosts: localhost
   tasks:
   - name: create subnet for database servers
-    ec2_vpc_subnet: vpc-05f514f0618c0ce2f 
+    ec2_vpc_subnet: 
      state: present
-     vpc_id: 
+     vpc_id: vpc-05f514f0618c0ce2f
      cidr: 10.0.1.0/24
