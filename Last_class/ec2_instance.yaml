@@ -1,7 +1,6 @@
 ---
 - hosts: localhost
-  vars_files:
-  - us-east-1
+  vars_files: - us-east-1.yaml
   tasks:
   - name: Create instance
     ec2:
