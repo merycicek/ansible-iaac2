@@ -1,4 +1,4 @@
-key_name:                 "bastion_host"
+key_name:                " bastion_host "
 instance_type:            "t2.micro"
 image:                    "ami-0323c3dd2da7fb37d"
 group:                    "default" # Put security group name not id
