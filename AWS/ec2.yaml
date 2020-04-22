@@ -8,3 +8,4 @@
       count: 1
       instance_tags:
         Name: Created_by_ansible
+        state: absent 
